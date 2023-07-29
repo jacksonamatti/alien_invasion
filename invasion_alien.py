@@ -11,10 +11,11 @@ def run_game():
         ai_settings.scree_width, ai_settings.screen_height
         )) #cria a janela de exibição
     pygame.display.set_caption("invasao alien ")
-    ship = Ship(screen) # cria uma escaçonave
+    ship = Ship(ai_settings, screen) # cria uma escaçonave
     
     while True:
-        gf.check_events()
+        gf.check_events(ship)
+        ship.update()
         gf.update_screen(ai_settings, screen,ship)
 run_game()
     
