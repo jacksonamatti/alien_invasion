@@ -1,6 +1,7 @@
 import sys
 import pygame
 from settings import Settings
+from ship import Ship
 
 def run_game():
     #inicaliza o jogo e cria o objeto tela 
@@ -10,11 +11,11 @@ def run_game():
         ai_settings.scree_width, ai_settings.screen_height
         )) #cria a janela de exibição
     pygame.display.set_caption("invasao alien ")
-    
+    ship = Ship(screen) # cria uma escaçonave
     
     while True:
-        #observa eventos do teclado e do mouse
-        screen.fill(ai_settings.bg_color)
+        screen.fill(ai_settings.bg_color) #define a cor da tela
+        ship.blitme()
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()
