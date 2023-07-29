@@ -1,7 +1,7 @@
-import sys
 import pygame
 from settings import Settings
 from ship import Ship
+import game_function as gf # usando o 'as' que siginifica um apelido para a funcao
 
 def run_game():
     #inicaliza o jogo e cria o objeto tela 
@@ -14,11 +14,7 @@ def run_game():
     ship = Ship(screen) # cria uma escaçonave
     
     while True:
-        screen.fill(ai_settings.bg_color) #define a cor da tela
-        ship.blitme()
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                sys.exit()
-            pygame.display.flip()
+        gf.check_events()
+        gf.update_screen(ai_settings, screen,ship)
 run_game()
     
