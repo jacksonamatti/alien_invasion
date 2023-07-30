@@ -40,4 +40,10 @@ def update_screen(ai_settings, screen, ship, bullets):
         bullet.draw_bullets()
     ship.blitme()
     pygame.display.flip()
-    
+
+def update_bullets(bullets):
+    """Atualiza as balas"""
+    bullets.update()
+    for bullet in bullets.copy():
+        if bullet.rect.bottom <=0:
+            bullets.remove(bullet)
