@@ -1,4 +1,4 @@
-# Space Invaders 2D - Jogo de Espaçonave vs. Alienígenas
+# alien invasion 2D - Jogo de Espaçonave vs. Alienígenas
 
 ![Space Invaders](https://example.com/space_invaders.png)
 
