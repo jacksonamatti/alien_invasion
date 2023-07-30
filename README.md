@@ -18,29 +18,29 @@ Antes de começar a jogar, certifique-se de que seu sistema atende aos requisito
 -> pip3 install pygame
 
 
-3. Agora você está pronto para jogar! Faça o download do código-fonte do jogo em [link_do_repositório] e extraia-o para um diretório de sua escolha.
+3. Agora você está pronto para jogar! Faça o download do código-fonte do jogo em [https://github.com/jacksonamatti/alien_invasion] e extraia-o para um diretório de sua escolha.
 
 ## Como Jogar
 
 1. Navegue para o diretório onde você extraiu o código-fonte do jogo.
 
-2. Abra o terminal ou prompt de comando e execute o seguinte comando para iniciar o jogo:
+2. execute o arquivo principal que e invasion_alien.py
 
+3. e pronto !
 
+4. A tela do jogo será exibida, e você verá a espaçonave controlada pelo teclado.
 
-3. A tela do jogo será exibida, e você verá a espaçonave controlada pelo teclado.
+5. Use as teclas direcionais (← e →) para mover a espaçonave para a esquerda e direita.
 
-4. Use as teclas direcionais (← e →) para mover a espaçonave para a esquerda e direita.
+6. Use a tecla de espaço para atirar contra os alienígenas invasores.
 
-5. Use a tecla de espaço para atirar contra os alienígenas invasores.
+7. Seu objetivo é destruir todos os alienígenas antes que eles cheguem à parte inferior da tela. Caso contrário, a invasão terá sucesso e o jogo terminará.
 
-6. Seu objetivo é destruir todos os alienígenas antes que eles cheguem à parte inferior da tela. Caso contrário, a invasão terá sucesso e o jogo terminará.
+8. Ao eliminar todos os alienígenas, você passará para o próximo nível, onde a dificuldade aumentará.
 
-7. Ao eliminar todos os alienígenas, você passará para o próximo nível, onde a dificuldade aumentará.
+9. O jogo continuará até que você seja derrotado pelos alienígenas.
 
-8. O jogo continuará até que você seja derrotado pelos alienígenas.
-
-9. Divirta-se e tente bater seu próprio recorde!
+10. Divirta-se e tente bater seu próprio recorde!
 
 ## Controles
 
