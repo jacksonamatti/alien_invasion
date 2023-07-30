@@ -16,8 +16,10 @@ def check_keydown_events(event, ai_settings,screen, ship, bullets):
     elif event.key ==pygame.K_LEFT:
             ship.moving_left = True
     elif event.key == pygame.K_SPACE:
-        #CRIA UM NOVO PORJETIL
-        if len(bullets) < ai_settings.bullets_allowed:
+        #fire a bullet and add it to the group of bullets
+        fire_bullet(ai_settings, screen, ship, bullets)
+def fire_bullet(ai_settings, screen, ship, bullets):
+    if len(bullets) < ai_settings.bullets_allowed:
             newBullet = Bullet(ai_settings,screen,ship)
             bullets.add(newBullet)
             
