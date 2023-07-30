@@ -1,7 +1,5 @@
 # alien invasion 2D - Jogo de Espaçonave vs. Alienígenas
 
-![Space Invaders](https://example.com/space_invaders.png)
-
 Bem-vindo(a) ao Space Invaders 2D! Este é um jogo desenvolvido totalmente em Python, onde você controlará uma espaçonave e enfrentará hordas de alienígenas invasores no espaço sideral. Sua missão é destruir todos os alienígenas antes que eles alcancem a Terra. Prepare-se para a ação e divirta-se!
 
 ## Requisitos do Sistema
