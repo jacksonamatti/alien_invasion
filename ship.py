@@ -5,7 +5,7 @@ class Ship():
         self.screen = screen
         self.ai_settings = ai_settings
         # Carrega a imagem da espaconave
-        self.image = pygame.image.load('alien_invasion/images/rocket.bmp')
+        self.image = pygame.image.load('images/rocket.bmp')
         # Redimensiona a imagem para ter uma largura de 100 pixels (a altura será ajustada mantendo a proporção original)
         self.image = pygame.transform.scale(self.image, (30, int(self.image.get_height() * (30 / self.image.get_width()))))
         self.rect = self.image.get_rect()
