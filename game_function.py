@@ -10,10 +10,13 @@ def check_events(ai_settings,screen,ship,bullets):
                 check_keydown_events(event,ai_settings,screen,ship,bullets)
             elif event.type == pygame.KEYUP:
                 check_keup_events(event, ship)
+            
 
 def check_keydown_events(event, ai_settings,screen, ship, bullets):
     if event.key == pygame.K_RIGHT:
             ship.moving_right = True
+    elif event.key == pygame.K_q:
+                sys.exit()
     elif event.key ==pygame.K_LEFT:
             ship.moving_left = True
     elif event.key == pygame.K_SPACE:
